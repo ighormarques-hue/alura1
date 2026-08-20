@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb - Hospedagens e Apartamentos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header/Navegação -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <h1>Airbnb</h1>
+      </div>
+      <nav class="nav">
+        <a href="#hospedagens">Hospedagens</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="btn-login">Entrar</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Encontre seu lugar perfeito</h2>
+      <p>Descubra casas, apartamentos e muito mais</p>
+      <input type="text" placeholder="Para onde você quer ir?" class="search-input">
+    </div>
+  </section>
+
+  <!-- Seção de Hospedagens -->
+  <section class="hospedagens" id="hospedagens">
+    <div class="container">
+      <h2>Hospedagens em Destaque</h2>
+      
+      <div class="grid-hospedagens">
+        <!-- Cartão 1 -->
+        <div class="card-hospedagem">
+          <div class="card-imagem">
+            <img src="https://via.placeholder.com/300x200?text=Casa+Moderna" alt="Casa Moderna">
+            <span class="badge-favorito">♥</span>
+          </div>
+          
+          <div class="card-info">
+            <div class="card-localizacao">
+              <h3>Casa Moderna no Centro</h3>
+              <p>São Paulo, Brasil</p>
+            </div>
+            
+            <div class="card-pontuacao">
+              <span class="estrelas">★★★★★</span>
+              <span class="nota">4.8</span>
+              <span class="avaliacoes">(248 avaliações)</span>
+            </div>
+            
+            <div class="card-hospede">
+              <p>Hospedado por <strong>João Silva</strong></p>
+              <div class="hospede-pontuacao">
+                <span class="estrelas-hospede">★★★★☆</span>
+                <span class="nota-hospede">4.7</span>
+              </div>
+            </div>
+            
+            <div class="card-preco">
+              <p class="preco-valor">R$ 250 <span class="preco-noite">/noite</span></p>
+              <p class="preco-total">Total: R$ 1.750 (7 noites)</p>
+            </div>
+            
+            <button class="btn-reservar">Reservar</button>
+          </div>
+        </div>
+
+        <!-- Cartão 2 -->
+        <div class="card-hospedagem">
+          <div class="card-imagem">
+            <img src="https://via.placeholder.com/300x200?text=Apartamento+Cozy" alt="Apartamento Cozy">
+            <span class="badge-favorito">♥</span>
+          </div>
+          
+          <div class="card-info">
+            <div class="card-localizacao">
+              <h3>Apartamento Aconchegante</h3>
+              <p>Rio de Janeiro, Brasil</p>
+            </div>
+            
+            <div class="card-pontuacao">
+              <span class="estrelas">★★★★★</span>
+              <span class="nota">4.9</span>
+              <span class="avaliacoes">(312 avaliações)</span>
+            </div>
+            
+            <div class="card-hospede">
+              <p>Hospedado por <strong>Maria Santos</strong></p>
+              <div class="hospede-pontuacao">
+                <span class="estrelas-hospede">★★★★★</span>
+                <span class="nota-hospede">4.9</span>
+              </div>
+            </div>
+            
+            <div class="card-preco">
+              <p class="preco-valor">R$ 180 <span class="preco-noite">/noite</span></p>
+              <p class="preco-total">Total: R$ 1.260 (7 noites)</p>
+            </div>
+            
+            <button class="btn-reservar">Reservar</button>
+          </div>
+        </div>
+
+        <!-- Cartão 3 -->
+        <div class="card-hospedagem">
+          <div class="card-imagem">
+            <img src="https://via.placeholder.com/300x200?text=Casa+Luxo" alt="Casa Luxo">
+            <span class="badge-favorito">♥</span>
+          </div>
+          
+          <div class="card-info">
+            <div class="card-localizacao">
+              <h3>Casa de Luxo com Piscina</h3>
+              <p>Belo Horizonte, Brasil</p>
+            </div>
+            
+            <div class="card-pontuacao">
+              <span class="estrelas">★★★★★</span>
+              <span class="nota">4.7</span>
+              <span class="avaliacoes">(189 avaliações)</span>
+            </div>
+            
+            <div class="card-hospede">
+              <p>Hospedado por <strong>Carlos Oliveira</strong></p>
+              <div class="hospede-pontuacao">
+                <span class="estrelas-hospede">★★★★☆</span>
+                <span class="nota-hospede">4.6</span>
+              </div>
+            </div>
+            
+            <div class="card-preco">
+              <p class="preco-valor">R$ 450 <span class="preco-noite">/noite</span></p>
+              <p class="preco-total">Total: R$ 3.150 (7 noites)</p>
+            </div>
+            
+            <button class="btn-reservar">Reservar</button>
+          </div>
+        </div>
+
+        <!-- Cartão 4 -->
+        <div class="card-hospedagem">
+          <div class="card-imagem">
+            <img src="https://via.placeholder.com/300x200?text=Apartamento+Studio" alt="Apartamento Studio">
+            <span class="badge-favorito">♥</span>
+          </div>
+          
+          <div class="card-info">
+            <div class="card-localizacao">
+              <h3>Studio Moderno</h3>
+              <p>Curitiba, Brasil</p>
+            </div>
+            
+            <div class="card-pontuacao">
+              <span class="estrelas">★★★★☆</span>
+              <span class="nota">4.5</span>
+              <span class="avaliacoes">(156 avaliações)</span>
+            </div>
+            
+            <div class="card-hospede">
+              <p>Hospedado por <strong>Ana Costa</strong></p>
+              <div class="hospede-pontuacao">
+                <span class="estrelas-hospede">★★★★★</span>
+                <span class="nota-hospede">4.8</span>
+              </div>
+            </div>
+            
+            <div class="card-preco">
+              <p class="preco-valor">R$ 120 <span class="preco-noite">/noite</span></p>
+              <p class="preco-total">Total: R$ 840 (7 noites)</p>
+            </div>
+            
+            <button class="btn-reservar">Reservar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Airbnb Clone. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
